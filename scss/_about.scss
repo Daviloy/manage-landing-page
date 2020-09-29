@@ -1,0 +1,49 @@
+#about {
+    background: url("../assets/images/bg-tablet-pattern.svg") no-repeat bottom
+        left/40%;
+    background-position-x: -300px;
+    background-position-y: 270px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+
+    p {
+        color: $dark-grayish-blue;
+    }
+
+    .about {
+        &-content {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        &-text {
+            h2 {
+                font-size: 35px;
+            }
+
+            p {
+                padding-right: 15vw;
+            }
+        }
+
+        &-features {
+            li {
+                display: flex;
+                align-items: flex-start;
+                margin-bottom: 30px;
+
+                h3 {
+                    background-color: $bright-red;
+                    border-radius: 50px;
+                    color: $white;
+                    margin-right: 2.2vw;
+                    padding: 0.65rem 1.3rem;
+                }
+
+                div {
+                    margin-top: 8px;
+                }
+            }
+        }
+    }
+}

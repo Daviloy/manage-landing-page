@@ -1,0 +1,44 @@
+#testimonials {
+    padding: 0 20px;
+
+    h2 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .btn {
+        margin: 35px auto 0 auto;
+    }
+
+    .testimonials {
+        &-reviews {
+            display: flex;
+            overflow-y: hidden;
+            overflow-x: scroll;
+            padding-top: 70px;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            div {
+                background-color: $very-light-gray;
+                flex: 0 0 32%;
+                margin-right: 30px;
+                padding: 0 30px 30px 30px;
+                text-align: center;
+
+                img {
+                    margin-top: -30px;
+                    width: 60px;
+                    z-index: 2;
+                }
+
+                p {
+                    color: $dark-grayish-blue;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

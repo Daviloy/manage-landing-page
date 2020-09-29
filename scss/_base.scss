@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "BeVietnam";
+    font-weight: 500;
+    src: url("../assets/fonts/BeVietnam-Regular.ttf");
+}
+
+// Color Plattes
+$dark-color: #181818;
+$white: #ffffff;
+$bright-red: hsl(12, 88%, 59%);
+$dark-blue: hsl(228, 39%, 23%);
+$dark-grayish-blue: hsl(227, 12%, 61%);
+$very-dark-blue: hsl(233, 12%, 13%);
+$very-pale-red: hsl(13, 100%, 96%);
+$very-light-gray: hsl(0, 0%, 98%);
+
+// Measurments
+$container-width: 1440px;
+$font-family: "BeVietnam", sans-serif;
+$font-size: 16px;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    color: $dark-color;
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: 500;
+    line-height: 1.6em;
+}
+
+header,
+nav,
+footer,
+section {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $dark-blue;
+    line-height: 1.2;
+    margin: 1rem 0;
+}
+
+p {
+    margin: 0.6rem 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: $dark-blue;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}

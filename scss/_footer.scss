@@ -1,0 +1,82 @@
+#main-footer {
+    background-color: $very-dark-blue;
+    color: $white;
+    padding: 50px 0;
+
+    a {
+        color: $white;
+        transition: color 0.3s ease-in;
+
+        &:hover {
+            color: $bright-red;
+        }
+    }
+
+    .footer-cols {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: space-between;
+
+        .col {
+            &-1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                a {
+                    margin: 0 5px;
+                }
+            }
+
+            &-2 {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+
+                ul {
+                    height: 100%;
+                    li {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            &-3 {
+                form {
+                    display: flex;
+                }
+
+                input[type="email"] {
+                    border: none;
+                    border-radius: 50px;
+                    font-family: "BeVietnam";
+                    padding: 0.7rem 1.3rem;
+                }
+
+                input[type="submit"] {
+                    box-shadow: none;
+                    margin-left: 0.6rem;
+                    width: auto;
+                }
+
+                p {
+                    color: $dark-grayish-blue;
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+
+    .footer-credits {
+        margin-top: 30px;
+        text-align: center;
+
+        a {
+            text-decoration: underline;
+        }
+    }
+}
+
+// Make the navbar responsive
+// Use font awesome for the social icons
+// make the colors of the icons bright red
+// Add validation to the input field

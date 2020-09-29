@@ -1,0 +1,20 @@
+#cta {
+    background: $bright-red
+        url("../assets/images/bg-simplify-section-desktop.svg") no-repeat left
+        center/cover;
+    background-position-x: 200px;
+    color: $white;
+    padding: 65px 0;
+    min-height: 200px;
+    margin-top: 150px;
+
+    .cta-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2 {
+            color: $white;
+            font-size: 35px;
+        }
+    }
+}

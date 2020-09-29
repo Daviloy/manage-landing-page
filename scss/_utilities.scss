@@ -1,0 +1,36 @@
+.container {
+    max-width: 1440px;
+    padding: 0 130px;
+}
+
+.btn {
+    border: none;
+    border-radius: 50px;
+    display: block;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease-in;
+    width: 140px;
+
+    &-primary {
+        background-color: $bright-red;
+        box-shadow: 0 2px 5px $bright-red;
+        color: $white;
+    }
+
+    &-secondary {
+        background-color: $very-light-gray;
+        box-shadow: 0 2px 2px $very-light-gray;
+        color: $bright-red;
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.hide-desktop {
+    display: none;
+}
