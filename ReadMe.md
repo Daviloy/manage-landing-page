@@ -4,7 +4,7 @@
 
 Thanks for checking out this front-end coding challenge from [Frontend Mentor](http://frontendmentor.io).
 
-The challenge was to build out this landing page and get it looking as close to the design as possible. I implemented this with HTML5, CSS3, SASS (CSS pre-processor), and some JavaScript.
+The challenge was to build out this landing page and get it looking as close to the design as possible. I implemented this with HTML5, CSS3, SASS (CSS pre-processor), and some JavaScript. You can view the project live [here](https://wizardly-chandrasekhar-775944.netlify.app/).
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-design.jpg)
 
